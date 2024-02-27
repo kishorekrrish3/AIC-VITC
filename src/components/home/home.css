@@ -1,0 +1,111 @@
+.home {
+    background: url('../../assets/gradient.jpg');
+    width: 100%;
+    height: 920px;
+}
+
+.logo-container {
+    display: flex   ;
+}
+
+.vit-logo {
+    height: 64px;
+}
+
+.aic-logo {
+    height: 94px;
+}
+
+.home-container {
+    margin-top: 12rem;
+    margin-left: 72px;
+    width: 500px;
+}
+
+.home-title {
+    font-size: 52px;
+    color: white;
+}
+
+.home-content {
+    font-size: 24px;
+    font-weight: 600;
+    color: rgb(216, 216, 216);
+    margin-top: -1.25rem;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    padding-top: 2rem;
+    padding-left: 42px;
+}
+
+@media screen and (max-width: 1200px ) and (min-width: 720px){
+    .home-title {
+        font-size: 46px;
+    }
+    .home-content {
+        font-size: 22px;
+    }
+    .aic-logo {
+        height: 82px;
+    }
+    .vit-logo {
+        height: 62px;
+    }
+}
+
+@media screen and (max-width: 720px ) and (min-width: 530px) {
+    .home-container {
+        width: 360px;
+        margin-left: 52px;
+    }
+    .home-title {
+        font-size: 36px;
+    }
+    .home-content {
+        font-size: 18px;
+    }
+    .aic-logo {
+        height: 76px;
+    }
+    .vit-logo {
+        height: 52px;
+    }
+    .logo-container {
+        display: flex;
+        align-items: center;
+        width: 100%;
+        
+    }
+}
+
+@media screen and (max-width: 530px) {
+    .aic-logo {
+        max-width: 20%;
+        height: auto;
+    }
+    .vit-logo {
+        max-width: 50%;
+        height: auto;
+    }
+    .logo-container {
+        display: flex;
+        align-items: center;
+    }
+    .home-container {
+        margin-left: 32px;
+        width: 60%;
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+    .home-title {
+        font-size: 28px;
+    }
+    .home-content {
+        font-size: 18px;
+    }
+}

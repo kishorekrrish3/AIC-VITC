@@ -1,0 +1,172 @@
+.faculty-container {
+    background-color: #222222;
+    color: white;
+    width: 100%;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.faculty-title {
+    margin-top: 56px;
+    font-size: 52px;
+}
+
+
+.flip-card {
+    background-color: transparent;
+    width: 260px;
+    height: 200px;
+    perspective: 1000px; /* Remove this if you don't want the 3D effect */
+  }
+  
+  /* This container is needed to position the front and back side */
+  .flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center; 
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+  }
+  
+  /* Do an horizontal flip when you move the mouse over the flip box container */
+  .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+  }
+  
+  /* Position the front and back side */
+  .flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden; /* Safari */
+    backface-visibility: hidden;
+  }
+  
+  /* Style the front side (fallback if image is missing) */
+  .flip-card-front {
+    color: black;
+  }
+  
+  /* Style the back side */
+  .flip-card-back {
+    background:linear-gradient(135deg, #f2d50f 0%,#da0641 100%);
+    color: white;
+    width: 270px;
+    height: 300px;
+    border-radius: 1rem;
+    transform: rotateY(180deg);
+  }
+
+  .flip-card-back > h1 {
+    font-size: 22px;
+    margin-top: 72px;
+  }
+
+  .flip-card-back > p {
+    font-size: 16px;
+  }
+
+  .faculty-img {
+    border-radius: 1rem;
+    width: 260px;
+    height: 300px;
+  }
+
+  .faculty-card-container {
+    margin-top: 1rem;
+    display: flex;
+    gap: 32px;
+  }
+
+
+  
+@media screen and (max-width: 1200px) and (min-width: 720px){
+    .faculty-title {
+        font-size: 38px;
+    }
+    .flip-card {
+        width: 240px;
+    }
+    .faculty-img {
+        width: 240px;
+        height: 270px;
+    }
+    .flip-card-back {
+      width: 240px;
+      height: 270px;
+    }
+    .faculty-container {
+        height: 520px;
+    }
+    .flip-card-back > h1 {
+      font-size: 20px;
+      margin-top: 72px;
+    }
+  
+    .flip-card-back > p {
+      font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 720px) and (min-width: 530px) {
+    .faculty-title {
+        font-size: 28px;
+    }
+    .flip-card {
+        width: 200px;
+    }
+    .faculty-img {
+        width: 200px;
+        height: 230px;
+    }
+    .faculty-container {
+        height: 420px;
+    }
+    .flip-card-back {
+      width: 200px;
+      height: 230px;
+    }
+    .flip-card-back > h1 {
+      font-size: 16px;
+      margin-top: 72px;
+    }
+  
+    .flip-card-back > p {
+      font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 530px) {
+    .faculty-title {
+        font-size: 24px;
+    }
+    .flip-card {
+        width: 240px;
+    }
+    .faculty-img {
+        width: 230px;
+        height: 270px;
+    }
+    .flip-card-back {
+      width: 230px;
+      height: 270px;
+    }
+    .faculty-container {
+        height: 760px;
+    }
+    .faculty-card-container {
+        row-gap: 6rem;
+        flex-direction: column;
+    }
+    .flip-card-back > h1 {
+      font-size: 18px;
+      margin-top: 72px;
+    }
+  
+    .flip-card-back > p {
+      font-size: 14px;
+    }
+}

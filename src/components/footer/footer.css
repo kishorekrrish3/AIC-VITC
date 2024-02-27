@@ -1,0 +1,298 @@
+.footer-container {
+    padding-left: 32px;
+    padding-right: 32px;
+    background-color: black;
+    color: white;
+    width: 100%;
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.about-ai {
+    margin-right: 52px;
+}
+
+.about-ai-title {
+    font-size: 32px;
+}
+
+.about-ai-content {
+    font-size: 18px;
+    max-width: 600px;
+    text-align: justify;
+    color: rgb(158, 158, 158);
+}
+
+.vertical-line-1 {
+    margin-top: 32px;
+    border: 1px solid #535353;
+    height: 240px;
+    width: 0;
+}
+
+.updates {
+    margin-left: 52px;
+}
+
+.updates-title {
+    margin-top: 32px;
+    font-size: 28px;
+}
+
+.coming-soon,
+.click {
+    margin-top: -12px;
+    font-size: 14px;
+}
+
+.updates-hackathon,
+.updates-recruitment {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.click {
+    color: rgb(134, 134, 255);
+}
+
+.coming-soon {
+    color: rgb(158, 158, 158);
+}
+
+.github-icon,
+.instagram-icon,
+.linkedin-icon,
+.mail-icon {
+    width: 28px;
+    height: 28px;
+    margin-right: 12px;
+    margin-top: -8px;
+}
+
+.follow-us {
+    margin-left: 82px;
+}
+
+.follow-us-title {
+    font-size: 28px;
+}
+
+.instagram-icon:hover,
+.github-icon:hover,
+.linkedin-icon:hover,
+.mail-icon:hover {
+    transform: scale(1.15);
+}
+
+a {
+    color: white;
+}
+
+.copywrite,
+.credits {
+    color: #646464;
+    width: 100%;
+}
+
+.footer-2 {
+    width: 100%;
+    height: 80px;
+    background-color: black;
+    color: #535353;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+}
+
+.copywrite {
+    margin-top: 20px;
+    margin-bottom: -12px;
+}
+
+
+@media screen and (max-width: 1200px) and (min-width: 720px){
+    .footer-container {
+        padding-right: 32px;
+        padding-left: 32px;
+        align-items: flex-start;
+        padding-top: 24px;
+    }
+    .about-ai-title {
+        font-size: 28px;
+    }
+    .about-ai-content {
+        font-size: 17px;
+        max-width: 380px;
+    }
+    .updates-title,.follow-us-title {
+        font-size: 24px;
+    }
+    .updates-recruitment,.updates-hackathon {
+        font-size: 17px;
+    }
+    .github-icon,
+    .instagram-icon,
+    .linkedin-icon,
+    .mail-icon {
+        width: 24px;
+        height: 24px;
+        margin-right: 10px;
+        margin-top: -8px;
+    }
+    .copywrite,.credits {
+        font-size: 14px;
+    }.updates {
+        margin-left: 32px;
+    }
+    .follow-us {
+        margin-left: 32px;
+        margin-top: 12px;
+        padding-right: 32px;
+    }
+    .icon-link {
+        width: 24px;
+        height: 24px;
+    }
+    .follow-us-content {
+        display: flex;
+        flex-wrap: wrap;
+        padding-right: 32px;
+        gap: 0.5rem;
+    }
+    .follow-us-title {
+        padding-right: 32px;
+    }
+}
+
+@media screen and (max-width: 720px) and (min-width: 530px) {
+    .footer-container {
+        display: flex;
+        flex-direction: column;
+        height: fit-content;
+        padding-top: 2rem;
+        text-align: center;
+        padding-bottom: 1rem;
+    }
+    .vertical-line-1 {
+        display: none;
+    }
+    .updates {
+        margin-left: 0;
+        padding: 0;
+        margin-right: 52px;
+    }
+    .follow-us {
+        margin-left: 0;
+        padding: 0;
+        margin-right: 52px;
+    }
+    .follow-us-content {
+        margin: 0;
+        padding: 0;
+        margin-left: 16px;
+    }
+    .about-ai-title {
+        font-size: 22px;
+    }
+    .about-ai-content {
+        font-size: 16px;
+        padding-left: 32px;
+        padding-right: 32px;
+    }
+    .updates-title {
+        font-size: 22px;
+    }
+    .updates-recruitment,.updates-hackathon {
+        font-size: 16px;
+        padding-bottom: 4px;
+    }
+    .follow-us-title {
+        font-size: 22px;
+    }
+    .github-icon,
+    .instagram-icon,
+    .linkedin-icon,
+    .mail-icon {
+        width: 22px;
+        height: 22px;
+        margin-right: 10px;
+        margin-top: -8px;
+    }
+    .copywrite,.credits {
+        font-size: 14px;
+    }
+    .copywrite {
+        margin-top: 1.5rem;
+    }
+}
+
+@media screen and (max-width: 530px) {
+    .footer-container {
+        display: flex;
+        flex-direction: column;
+        height: fit-content;
+        padding-top: 2rem;
+        text-align: center;
+        padding-bottom: 1rem;
+    }
+    .vertical-line-1 {
+        display: none;
+    }
+    .updates {
+        margin-left: 0;
+        padding: 0;
+        margin-right: 52px;
+    }
+    .follow-us {
+        margin-left: 0;
+        padding: 0;
+        margin-right: 52px;
+    }
+    .follow-us-content {
+        margin: 0;
+        padding: 0;
+        margin-left: 10px;
+    }
+    .about-ai-title {
+        font-size: 20px;
+    }
+    .about-ai-content {
+        font-size: 14px;
+        min-width: 180px;
+        max-width: 380px;
+        padding-left: 24px;
+        padding-right: 24px;
+    }
+    .updates-title {
+        font-size: 20px;
+    }
+    .updates-recruitment,.updates-hackathon {
+        font-size: 13px;
+        padding-bottom: 4px;
+    }
+    .follow-us-title {
+        font-size: 20px;
+    }
+    .github-icon,
+    .instagram-icon,
+    .linkedin-icon,
+    .mail-icon {
+        width: 20px;
+        height: 20px;
+        margin-right: 8px;
+        margin-top: -8px;
+    }
+    .copywrite,.credits {
+        font-size: 12px;
+        padding-left: 12px;
+        padding-right: 12px;
+        
+    }
+    .copywrite {
+        margin-top: 1.5rem;
+    }
+}
+  

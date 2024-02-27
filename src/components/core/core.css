@@ -1,0 +1,86 @@
+.core-container {
+    background-color: rgb(26, 26, 26);
+    color: white;
+    width: 100%;
+    height: fit-content;
+    padding-bottom: 200px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.core-title {
+    margin-top: 56px;
+    font-size: 56px;
+}
+
+.core-img {
+    border-radius: 1rem;
+    width: 260px;
+    height: 300px;
+}
+
+.core-back {
+    background:linear-gradient(135deg, #17ead9 0%,#6078ea 100%);
+}
+
+.core-card-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1rem;
+    flex-wrap: wrap;
+    gap: 20px;
+    row-gap: 136px;
+  }
+
+  @media screen and (max-width: 1200px) and (min-width: 720px){
+    .core-title {
+        font-size: 38px;
+    }
+    .core-img {
+        width: 240px;
+        height: 270px;
+    }
+    .core-card-container {
+        row-gap: 6rem;
+        max-width: 820px;
+        padding-left: 42px;
+        padding-right: 42px;
+    }
+}
+
+@media screen and (max-width: 720px) and (min-width: 530px) {
+    .core-title {
+        font-size: 28px;
+    }
+    .core-img {
+        width: 200px;
+        height: 230px;
+    }
+    .core-card-container {
+        row-gap: 3rem;
+        max-width: 820px;
+        padding-left: 42px;
+        padding-right: 42px;
+    }
+}
+
+@media screen and (max-width: 530px) {
+    .core-title {
+        font-size: 24px;
+    }
+    .core-img {
+        width: 230px;
+        height: 270px;
+    }
+    .core-container {
+        height: fit-content;
+        padding-bottom: 200px;
+    }
+    .core-card-container {
+        row-gap: 6rem;
+        flex-direction: column;
+    }
+}
+  

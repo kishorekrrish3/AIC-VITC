@@ -1,0 +1,67 @@
+.vision {
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.vision-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.vision-title {
+    padding-top: 52px;
+    margin: 0;
+    font-size: 52px;
+}
+
+.chart {
+    margin-top: 1rem;
+    margin-bottom: 4rem;
+    max-width: 60%;
+}
+
+
+@media screen and (max-width: 1200px) and (min-width: 720px){
+    .vision {
+        padding-left: 32px;
+        padding-right: 32px;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+    .vision-title {
+        font-size: 38px;
+    }
+    .chart {
+        min-width: auto;
+        max-width: 75%;
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 720px) and (min-width: 530px) {
+    .chart {
+        max-width: 80%;
+        margin-right: 32px;
+        margin-left: 32px;
+        height: auto;
+    }
+    .vision-title {
+        font-size: 28px;
+    }
+}
+
+@media screen and (max-width: 530px) {
+    .chart {
+        max-width: 70%;
+        margin-right: 32px;
+        margin-left: 32px;
+        height: auto;
+    }
+    .vision-title {
+        font-size: 24px;
+    }
+}
