@@ -16,9 +16,11 @@ const Footer = () => {
     <div className='vertical-line-1'/> 
     <div className='updates'>
         <h2 className='updates-title'>Updates</h2>
-        <p className='updates-recruitment'>Recruitments</p>
-        <a href='https://docs.google.com/forms/d/e/1FAIpQLScCAv9B_zMEIKMOocpKKE4k3T19gEMH_kqBoLnPOqtAE_kfUA/viewform' target='_blank'><p className='click'>Click here!</p></a>
+        {/* <p className='updates-recruitment'>Recruitments</p>
+        <a href='https://docs.google.com/forms/d/e/1FAIpQLScCAv9B_zMEIKMOocpKKE4k3T19gEMH_kqBoLnPOqtAE_kfUA/viewform' target='_blank'><p className='click'>Click here!</p></a> */}
         <p className='updates-hackathon'>Hackathon</p>
+        <p className='coming-soon'>Coming soon!</p>
+        <p className='updates-hackathon'>Workshop</p>
         <p className='coming-soon'>Coming soon!</p>
     </div>
     <div className='follow-us'>

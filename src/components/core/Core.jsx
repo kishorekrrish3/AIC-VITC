@@ -15,7 +15,7 @@ const Core = () => {
               <div class="flip-card-front">
                 <img src={require('../../assets/core/karan-k.png')} alt="Avatar" className='core-img'/>
               </div>
-              <div class="flip-card-back core-back">
+              <div class="core-back">
                 <h1>Karan K</h1>
                 <p>Chairperson</p>
               </div>
@@ -27,7 +27,7 @@ const Core = () => {
               <div class="flip-card-front">
                 <img src={require('../../assets/core/jesvanth-s.png')} alt="Avatar" className='core-img'/>
               </div>
-              <div class="flip-card-back core-back">
+              <div class="core-back">
                 <h1>Jesvanth S</h1>
                 <p>Vice Chairperson</p>
               </div>
@@ -39,7 +39,7 @@ const Core = () => {
               <div class="flip-card-front">
                 <img src={require('../../assets/core/adhvaitha.png')} alt="Avatar" className='core-img'/>
               </div>
-              <div class="flip-card-back core-back">
+              <div class="core-back">
                 <h1>Adhvaitha B</h1>
                 <p>General Secretary</p>
               </div>
@@ -51,7 +51,7 @@ const Core = () => {
               <div class="flip-card-front">
                 <img src={require('../../assets/core/kishore.png')} alt="Avatar" className='core-img'/>
               </div>
-              <div class="flip-card-back core-back">
+              <div class="core-back">
                 <h1>Kishore P</h1>
                 <p>General Secretary</p>
               </div>
@@ -63,7 +63,7 @@ const Core = () => {
               <div class="flip-card-front">
                 <img src={require('../../assets/core/puvanesh.jpg')} alt="Avatar" className='core-img'/>
               </div>
-              <div class="flip-card-back core-back">
+              <div class="core-back">
                 <h1>Puvanesh Y A</h1>
                 <p>Joint Secretary</p>
               </div>
@@ -75,7 +75,7 @@ const Core = () => {
               <div class="flip-card-front">
                 <img src={require('../../assets/core/salman.jpg')} alt="Avatar" className='core-img'/>
               </div>
-              <div class="flip-card-back core-back">
+              <div class="core-back">
                 <h1>Salman Farish</h1>
                 <p>Joint Secretary</p>
               </div>
@@ -87,7 +87,7 @@ const Core = () => {
               <div class="flip-card-front">
                 <img src={require('../../assets/core/tarun.png')} alt="Avatar" className='core-img'/>
               </div>
-              <div class="flip-card-back core-back">
+              <div class="core-back">
                 <h1>Tarun Parthiban</h1>
                 <p>Technical Lead</p>
               </div>
@@ -99,7 +99,7 @@ const Core = () => {
               <div class="flip-card-front">
                 <img src={require('../../assets/core/srilekha.jpg')} alt="Avatar" className='core-img'/>
               </div>
-              <div class="flip-card-back core-back">
+              <div class="core-back">
                 <h1>Sri Lekha</h1>
                 <p>Content & Design Lead</p>
               </div>
@@ -111,7 +111,7 @@ const Core = () => {
               <div class="flip-card-front">
                 <img src={require('../../assets/core/devadarshini.png')} alt="Avatar" className='core-img'/>
               </div>
-              <div class="flip-card-back core-back">
+              <div class="core-back">
                 <h1>Devadarshini S</h1>
                 <p>Social Media & Outreach Lead</p>
               </div>
@@ -123,7 +123,7 @@ const Core = () => {
               <div class="flip-card-front">
                 <img src={require('../../assets/core/sujeeth.png')} alt="Avatar" className='core-img'/>
               </div>
-              <div class="flip-card-back core-back">
+              <div class="core-back">
                 <h1>Sujeeth R</h1>
                 <p>Social Media & Outreach Lead</p>
               </div>
@@ -135,7 +135,7 @@ const Core = () => {
               <div class="flip-card-front">
                 <img src={require('../../assets/core/karan-ps.png')} alt="Avatar" className='core-img'/>
               </div>
-              <div class="flip-card-back core-back">
+              <div class="core-back">
                 <h1>Karan P S</h1>
                 <p>Social Media & Outreach Lead</p>
               </div>
@@ -147,7 +147,7 @@ const Core = () => {
               <div class="flip-card-front">
                 <img src={require('../../assets/core/nishaanth.png')} alt="Avatar" className='core-img'/>
               </div>
-              <div class="flip-card-back core-back">
+              <div class="core-back">
                 <h1>Nishaanth M N</h1>
                 <p>Operations & Management Lead</p>
               </div>
@@ -159,7 +159,7 @@ const Core = () => {
               <div class="flip-card-front">
                 <img src={require('../../assets/core/smitha.png')} alt="Avatar" className='core-img'/>
               </div>
-              <div class="flip-card-back core-back">
+              <div class="core-back">
                 <h1>Smitha Gladius T S</h1>
                 <p>Operations & Management Lead</p>
               </div>
@@ -171,7 +171,7 @@ const Core = () => {
               <div class="flip-card-front">
                 <img src={require('../../assets/core/anu.png')} alt="Avatar" className='core-img'/>
               </div>
-              <div class="flip-card-back core-back">
+              <div class="core-back">
                 <h1>Anu Vishali</h1>
                 <p>Operations & Management Lead</p>
               </div>
@@ -183,7 +183,7 @@ const Core = () => {
               <div class="flip-card-front">
                 <img src={require('../../assets/core/devadharshini-s.png')} alt="Avatar" className='core-img'/>
               </div>
-              <div class="flip-card-back core-back">
+              <div class="core-back">
                 <h1>Devadharshini S</h1>
                 <p>Marketing and PR Lead</p>
               </div>
@@ -195,7 +195,7 @@ const Core = () => {
               <div class="flip-card-front">
                 <img src={require('../../assets/core/kavya-p.png')} alt="Avatar" className='core-img'/>
               </div>
-              <div class="flip-card-back core-back">
+              <div class="core-back">
                 <h1>Kavya P</h1>
                 <p>Marketing and PR Lead</p>
               </div>
@@ -207,7 +207,7 @@ const Core = () => {
               <div class="flip-card-front">
                 <img src={require('../../assets/core/tharun-sk.png')} alt="Avatar" className='core-img'/>
               </div>
-              <div class="flip-card-back core-back">
+              <div class="core-back">
                 <h1>Tharun S K</h1>
                 <p>Marketing and PR Lead</p>
               </div>
@@ -219,7 +219,7 @@ const Core = () => {
               <div class="flip-card-front">
                 <img src={require('../../assets/core/aashik.png')} alt="Avatar" className='core-img'/>
               </div>
-              <div class="flip-card-back core-back">
+              <div class="core-back">
                 <h1>Mohammed Aashik</h1>
                 <p>Content & Design Lead</p>
               </div>
@@ -231,7 +231,7 @@ const Core = () => {
               <div class="flip-card-front">
                 <img src={require('../../assets/core/jeeva.jpg')} alt="Avatar" className='core-img'/>
               </div>
-              <div class="flip-card-back core-back">
+              <div class="core-back">
                 <h1>Jeeva M</h1>
                 <p>Content & Design Lead</p>
               </div>
@@ -243,7 +243,7 @@ const Core = () => {
               <div class="flip-card-front">
                 <img src={require('../../assets/core/vidhu-kishore.png')} alt="Avatar" className='core-img'/>
               </div>
-              <div class="flip-card-back core-back">
+              <div class="core-back">
                 <h1>Vidhu Kishore P S K</h1>
                 <p>Content & Design Lead</p>
               </div>
